@@ -8,7 +8,7 @@ void main()
 int i,n,sum=0,a[100];
 cout<<"\n\tEnter the number of array elements(max.=99) ";
 cin>>n;
-if(n>0&&n<0)          //To check array size
+if(n>0&&n<100)          //To check array size
 if(cin.fail())
 {
  cin.clear();
