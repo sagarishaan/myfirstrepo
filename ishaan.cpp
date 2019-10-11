@@ -17,7 +17,7 @@ cout<<"\n\tYou have entered wrong input"<<"\n";
 }
 {
 cout<<"\n\tEnter the Array elements ";
-for(i=0;i<n;i--)
+for(i=0;i<n;i++)
 {
 cin>>a[i];
 if(cin.fail())
